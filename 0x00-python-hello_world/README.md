@@ -4,20 +4,20 @@ This repository contains a collection of Python scripts for various exercises re
 
 ## Table of Contents
 
-1. [Run Python File](#0-run-python-file)
-2. [Run Inline](#1-.-run-inline)
-3. [Hello, Print](#2.-hello-print)
-4. [Print Integer](#print-integer)
-5. [Print Float](#print-float)
-6. [Print String](#print-string)
-7. [Play with Strings](#play-with-strings)
-8. [Copy - Cut - Paste](#copy-cut-paste)
-9. [Create a New Sentence](#create-a-new-sentence)
-10. [Easter Egg](#easter-egg)
-11. [Linked List Cycle](#linked-list-cycle)
-12. [Hello, Write](#hello-write)
-13. [Compile](#compile)
-14. [ByteCode -> Python #1](#bytecode-python-1)
+1. [0. Run Python File](#0-run-python-file)
+2. [1. Run Inline](#1-run-inline)
+3. [2. Hello, Print](#2-hello-print)
+4. [3. Print Integer](#3-print-integer)
+5. [4. Print Float](#4-print-float)
+6. [5. Print String](#5-print-string)
+7. [6. Play with Strings](#6-play-with-strings)
+8. [7. Copy - Cut - Paste](#7-copy-cut-paste)
+9. [8. Create a New Sentence](#8-create-a-new-sentence)
+10. [9. Easter Egg](#9-easter-egg)
+11. [10. Linked List Cycle](#10-linked-list-cycle)
+12. [11. Hello, Write](#11-hello-write)
+13. [12. Compile](#12-compile)
+14. [13. ByteCode -> Python #1](#13-bytecode-python-1)
 
 ---
 
