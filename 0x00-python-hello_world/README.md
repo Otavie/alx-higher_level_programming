@@ -4,7 +4,7 @@ This repository contains a collection of Python scripts for various exercises re
 
 ## Table of Contents
 
-1. [Run Python File](#run-python-file)
+1. [0. Run Python File](#run-python-file)
 2. [Run Inline](#run-inline)
 3. [Hello, Print](#hello-print)
 4. [Print Integer](#print-integer)
