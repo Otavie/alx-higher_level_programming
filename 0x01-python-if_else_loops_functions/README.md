@@ -109,5 +109,5 @@ Welcome to the "Programming Challenges" repository! This collection of programmi
 This repository is maintained by [Otavie Okuoyo](https://github.com/otavie).
 
 ## Duration: 
-**Start Date:** Tuesday, August 8, 2023
+**Start Date:** Tuesday, August 8, 2023 <br>
 **End Date:** Wednesday, August 9, 2023
