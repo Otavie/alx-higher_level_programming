@@ -1,2 +1,9 @@
 #!/bin/bash
-chmod u+x $PYFILE
+python_script="
+import py_compile
+
+source_file = '$PYFILE'
+compiled_file = source_file + 'c'
+py_compile.compile(source_file, compiled_file)
+"
+python3 -c "$python_script"
