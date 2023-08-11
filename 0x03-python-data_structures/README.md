@@ -133,9 +133,10 @@ This C function checks if a singly linked list is a palindrome:
 - Returns 0 if the linked list is not a palindrome and 1 if it is.
 - An empty list is considered a palindrome.
 
-## Contribution
+## Contributors:
 [Otavie Okuoyo](https://github.com/otavie)
 
-## Date:
-**Start Date:** Friday August 11, 2023
-**First Deadline:** Monday August 15, 2023
+## Date and Duration:
+**Start Date:** Friday August 11, 2023 <br>
+**First Deadline:** Monday August 15, 2023 <br>
+**Duration:** 4 Days
