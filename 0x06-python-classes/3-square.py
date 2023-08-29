@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
-"""An empty class Square that defines a square"""
+"""An class Square that defines a square"""
 
 class Square:
 
     """
-    Class for the attributes amd properties of square
+    Class for the attributes amd properties of square (based on 2-square.py).
     Attributes:
         size: length of a side of a square
     """
