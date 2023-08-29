@@ -2,5 +2,4 @@
 """Defines a class called Square"""
 class Square:
     """Class for Square"""
-    def __init__(self):
-        pass
+     pass
