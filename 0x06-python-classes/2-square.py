@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 
-"""An empty class Square that defines a square"""
-
-class Square:
+"""Defines a class Square"""
+    
+    class Square:
 
     """
-    Class for the attributes amd properties of square
+    Class for the attributes and properties of square
     Attributes:
         size: length of a side of a square
     """
-
+    
     def __init__(self, size=0):
 
         """Class constructor

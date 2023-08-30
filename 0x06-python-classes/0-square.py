@@ -2,6 +2,10 @@
 """Defines a class Square"""
 
 class Square:
-    """Class for the attributes amd properties of square
+    """
+    This class represents a Square.
+
+    Attributes:
+        None
     """
     pass
