@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-"""An empty class Square that defines a square"""
+"""Defines a class Square"""
 
 class Square:
     """
-    Class for the attributes amd properties of square
+    Class for the attributes and properties of square
     Attributes:
         size: length of a side of a square
     """
