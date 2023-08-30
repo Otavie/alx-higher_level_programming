@@ -1,48 +1,72 @@
 #!/usr/bin/python3
-class Square:
+
+"""Defines a class Square"""
+    
+    class Square:
     """
-    Class that defines the properties of square based on 3-square.py
+    This class represents a square.
 
     Attributes:
-        size: size of a side of the square
+        __size (int): The size of the square.
     """
 
+    
     def __init__(self, size=0):
+        """
+        Initializes a new instance of the Square class.
 
-        """Create a class constructor
         Args:
-            size: size of a side of the square
+            size(int, optional): The length of a side of the square.
+            Default value is 0.
+
+        Raises:
+            TypeError: If size is not an integer.
+            ValueError: If size is less than 0.
+
+        Returns:
+            None
         """
 
+        if not isinstance(size, int):
+            raise TypeError("size must be an integer")
+        if size < 0:
+            raise ValueError("size must be >= 0")
         self.__size = size
 
     @property
     def size(self):
-        """Returns the size of the square"""
+        """
+        Retrieve the size of the square.
 
+        Returns:
+            int: The size of the square.
+        """
         return self.__size
 
     @size.setter
     def size(self, value):
         """
-        Property Setter for size
+        Set the size of the square.
 
         Args:
-            value: size of a side of the square
+            value (int): The length of the side of the square.
 
-        Raises:
-            TypeError: size must be an integer
-            ValueError: size must be >= 0
+         Raises:
+            TypeError: If size is not an integer.
+            ValueError: If size is less than 0.
         """
 
-        if not isinstance(value, int):
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
-        if value < 0:
+        if size < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
 
     def area(self):
+        """
+        Calculates the area of the square.
 
-        """Calculates and returns the area of the square"""
-
-        return self.__size * self.__size
+        Returns:
+            int: The area of the square.
+        """
+        return self.__size ** 2
