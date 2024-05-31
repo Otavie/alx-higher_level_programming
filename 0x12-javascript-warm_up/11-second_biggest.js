@@ -6,5 +6,5 @@ const arrNumbers = arrs.sort().reverse();
 if (arrNumbers.length <= 2) {
   console.log(0);
 } else {
-  console.log(arrNumbers);
+  console.log(arrNumbers[1]);
 }
