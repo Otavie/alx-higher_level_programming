@@ -11,5 +11,5 @@ myObject.incr();
 console.log(myObject);
 myObject.incr();
 console.log(myObject);
-myObject.incr();
+myObject.value = 89;
 console.log(myObject);
