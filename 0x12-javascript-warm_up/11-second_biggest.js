@@ -1,6 +1,7 @@
 #!/usr/bin/node
 
-let arrNumbers = process.argv.slice(2).map(Number);
+let arrs = process.argv.slice(2);
+let arrNumbers = arrs.map(Number);
 
 function sortNumbers(arr) {
   return arr.sort((a, b) => a - b);
@@ -8,4 +9,10 @@ function sortNumbers(arr) {
 
 let sortedNumbers = sortNumbers(arrNumbers);
 
-console.log(sortedNumbers[-2]);
+if (arrs.length === 0) {
+  console.log(0);
+} else if (arrs.length === 1) {
+  console.log(1);
+} else {
+  console.log(sortedNumbers[sortedNumbers.length - 2]);
+}
