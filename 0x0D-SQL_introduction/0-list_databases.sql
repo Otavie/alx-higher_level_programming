@@ -1,4 +1,4 @@
 #!/usr/bin/env mysql
---- Lists all databases of the MySQL server
+-- Lists all databases of the MySQL server
 
-SHOW databases;
+SHOW DATABASES;
