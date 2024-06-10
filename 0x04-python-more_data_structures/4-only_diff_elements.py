@@ -3,7 +3,8 @@
 def only_diff_elements(set_1, set_2):
     union = []
     for i in set_1:
+        union.append(i)
         for j in set_2:
-            if i != j:
-                unionn.append(i)
+            if j not in union:
+                unionn.append(j)
     return (union)
