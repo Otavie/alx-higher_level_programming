@@ -6,5 +6,5 @@ def only_diff_elements(set_1, set_2):
         union.append(i)
         for j in set_2:
             if j not in union:
-                unionn.append(j)
+                union.append(j)
     return (union)
