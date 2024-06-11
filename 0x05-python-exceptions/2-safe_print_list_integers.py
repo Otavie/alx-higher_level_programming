@@ -10,6 +10,5 @@ def safe_print_list_integers(my_list=[], x=0):
         except (ValueError, TypeError):
             pass
         count += 1
-        finally:
-        print()
+    print()
     return printed_count
