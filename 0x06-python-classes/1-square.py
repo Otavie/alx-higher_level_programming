@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-Module that defines an empty clas Square
+Module that defines a class Square with a private instance attribute size
 """
 
 class Square:
-    """An empty clas that defines a sqaure."""
-    pass
+    """A clas Square wth a private instance attribute size."""
+    __size
