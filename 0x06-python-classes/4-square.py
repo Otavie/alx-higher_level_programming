@@ -36,4 +36,4 @@ class Square:
         Returns:
             int: The are of the square
         """
-        return self.__size * self.__ size
+        return size * size
