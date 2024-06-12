@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 Module that defines a class Square with a private instance attribute size
+And a Method that return area
 """
 
 
@@ -34,6 +35,6 @@ class Square:
         Returns the area of the square
 
         Returns:
-            int: The are of the square
+            float: The are of the square
         """
         return self.__size * self.__ size
