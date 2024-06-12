@@ -24,10 +24,8 @@ class Square:
             Default value is (0, 0)
 
         Raises:
-            TypeError: If size is not an integer or position is not a 
-            tuple of 2 +ve integers.
-            ValueError: If size is less than 0 or position elements 
-            are less than 0.
+            TypeError: If size is not an integer or position is not a tuple of 2 +ve integers.
+            ValueError: If size is less than 0 or position elements are less than 0.
         """
         self.__size = size
         self.__position = position
