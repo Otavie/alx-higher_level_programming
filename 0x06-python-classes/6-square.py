@@ -18,14 +18,15 @@ class Square:
         Initializes a new instance of the Square class.
 
         Args:
-            size (int, optional): The length of a side of the square.
-            Default value is 0
+            size (int, optional): The length of a side of the square. Default value is 0
+            Position (tuple, optional): The position of the square. Default value is (0, 0)
 
         Raises:
-            TypeError: If size is not an integer.
-            ValueError: If size is less than 0.
+            TypeError: If size is not an integer or position is not a tuple of 2 +ve integers.
+            ValueError: If size is less than 0 or position elements are less than 0.
         """
         self.__size = size
+        self.__position = position
 
     def area(self):
         """
@@ -64,6 +65,26 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
+    @property
+    def position(self):
+        """Getter method for the private attribute __position"""
+        return self.__position
+
+    @position.setter
+    def position(self, value):
+        """
+        Setter method for the private attribute __position
+
+        Args:
+            value (tuple): The new value to set for __position
+
+        Raises:
+            TypeError: If value is not a tuple of 2 +ve integers
+        """
+        if not isinstance(value, tuple) or len(value) != 2:
+            raise TypeError("position must be a tuple of 2 positive integers")
+        self.__position = value
+
     def my_print(self):
         """
         Prints the square using the character `#`
@@ -72,6 +93,8 @@ class Square:
         """
         if self.__size == 0:
             print()
+            return
+
         else:
             for i in range(self.__size):
                 print("#" * self.__size)
