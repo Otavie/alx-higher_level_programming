@@ -4,4 +4,8 @@
 
 class MyList(list):
     """A class MyLIst that inherits from list"""
-    pass
+
+    def print_sorted(self):
+        """Public instance method that printed sorted list"""
+
+        print(sorted(list))
