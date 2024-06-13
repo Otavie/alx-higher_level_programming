@@ -8,5 +8,6 @@ class MyList(list):
     def print_sorted(self):
         """Public instance method that printed sorted list"""
         
-        self.sort()
-        print(self)
+        list_copy = self[:]
+        list_copy.sort()
+        print(list_copy)
