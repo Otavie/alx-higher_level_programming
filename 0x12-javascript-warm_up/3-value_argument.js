@@ -9,5 +9,5 @@ for (const cmdArg of cmdArgs) { count++; }
 if (count === 0) {
   console.log('No argument');
 } else {
-  console.log(cmdArgs);
+  console.log(cmdArgs[0]);
 }
