@@ -2,7 +2,7 @@
 
 // Fetch the arguments passed to the script
 const cmdArgs = process.argv.slice(2);
-const arrNumbers = cmdArgs.sort();
+const arrNumbers = cmdArgs.sort((a, b) => a - b);
 
 if (arrNumbers.length <= 1) {
   console.log(0);
