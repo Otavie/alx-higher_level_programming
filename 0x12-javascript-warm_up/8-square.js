@@ -9,8 +9,8 @@ if (cmdArgs[0] === undefined || isNaN(cmdArgs)) {
   for (i = 0; i < cmdArgs[0]; i++) {
     let row = '';
     for (j = 0; j < cmdArgs[0]; j++) {
-      row+= 'X';
+      row += 'X';
     }
-  console.log(row);
+    console.log(row);
   }
 }
