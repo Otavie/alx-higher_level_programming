@@ -1,13 +1,19 @@
 #!/usr/bin/node
 
-const n = parseInt(process.argv[2]);
+// Fetch the arguments passed to the script
+const cmdArgs = process.argv.slice(2);
+const arg1 = parseInt(cmdArgs[0]);
 
 function factorial (n) {
-  if (isNaN(n) || n === 1) {
+  if (n === 1) {
     return 1;
-  } else {
-    return n * factorial(n - 1);
+  } else if (n > 1) {
+    return (n * factorial(n - 1));
   }
 }
 
-console.log(factorial(n));
+if (isNaN(arg1)) {
+  console.log(1);
+} else {
+  console.log(factorial(arg1));
+}

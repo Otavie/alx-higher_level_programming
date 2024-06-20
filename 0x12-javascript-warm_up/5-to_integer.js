@@ -1,12 +1,9 @@
 #!/usr/bin/node
 
-// Get the arguments passed to the script
-const args = process.argv.slice(2);
-
-const number = parseInt(args[0], 10);
-
-if (isNaN(number)) {
+// Fetch the arguments passed to the script
+const cmdArgs = process.argv.slice(2);
+if (isNaN(parseInt(cmdArgs[0]))) {
   console.log('Not a number');
 } else {
-  console.log('My number: ' + number);
+  console.log('My number: ' + parseInt(cmdArgs[0]));
 }

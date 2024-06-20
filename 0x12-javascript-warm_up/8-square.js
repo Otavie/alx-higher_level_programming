@@ -1,15 +1,16 @@
 #!/usr/bin/node
 
-const args = process.argv.slice(2);
-const number = parseInt(args[0], 10);
-
-let i = 0;
-
-if (isNaN(number)) {
+const cmdArgs = process.argv.slice(2);
+let i = 1;
+let j = 1;
+if (cmdArgs[0] === undefined || isNaN(cmdArgs)) {
   console.log('Missing size');
 } else {
-  while (i < number) {
-    console.log('X'.repeat(number));
-    i++;
+  for (i = 0; i < cmdArgs[0]; i++) {
+    let row = '';
+    for (j = 0; j < cmdArgs[0]; j++) {
+      row += 'X';
+    }
+    console.log(row);
   }
 }

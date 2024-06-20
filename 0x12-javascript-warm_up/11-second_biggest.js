@@ -1,10 +1,11 @@
 #!/usr/bin/node
 
-const numbers = process.argv.slice(2).map(Number);
-const sortedNumbers = numbers.sort((a, b) => b - a);
+// Fetch the arguments passed to the script
+const cmdArgs = process.argv.slice(2);
+const arrNumbers = cmdArgs.sort((a, b) => a - b);
 
-if (sortedNumbers.length <= 1) {
+if (arrNumbers.length <= 1) {
   console.log(0);
 } else {
-  console.log(sortedNumbers[1]);
+  console.log(arrNumbers[arrNumbers.length - 2]);
 }

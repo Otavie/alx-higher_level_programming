@@ -1,10 +1,10 @@
 #!/usr/bin/node
 
-// Get the arguments passed to the script
-const args = process.argv.slice(2);
+// Fetch the arguments passed to the script
+const cmdArgs = process.argv.slice(2);
 
-if (args[0] === undefined) {
+if (cmdArgs[0] === undefined) {
   console.log('No argument');
 } else {
-  console.log(args[0]);
+  console.log(cmdArgs[0]);
 }
