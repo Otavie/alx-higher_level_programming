@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-exports.xTimes = function (x, theFunction) {
+module.exports = function (x, theFunction) {
   for (let i = 0; i < x; i++) {
     theFunction();
   }
