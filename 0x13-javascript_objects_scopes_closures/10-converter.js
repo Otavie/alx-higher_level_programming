@@ -10,5 +10,5 @@ exports.converter = function (base) {
 
   return function (num) {
     return baseConverter(num);
-  }
-}
+  };
+};
