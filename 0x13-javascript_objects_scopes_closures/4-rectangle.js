@@ -14,9 +14,14 @@ class Rectangle {
     }
   }
 
-  rotate (){
-    this.width = h;
-    this.height = w;
+  rotate () {
+    this.width = this.height;
+    this.height = this.weight;
+  }
+
+  double () {
+    this.width = this.width * 2;
+    this.height = this.height * 2;
   }
 }
 
